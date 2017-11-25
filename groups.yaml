@@ -5,6 +5,7 @@ livingroom:
     - group.livingroom_lights
     # - group.livingroom_climate
     - media_player.wohnzimmer
+    - media_player.wohnzimmer_fernseher
     
 bedroom:
   name: Schlafzimmer
@@ -27,12 +28,22 @@ bathroom:
     - group.bathroom_lights
     # - group.bathroom_climate
     
+bathroom_lights:
+  name: Licht
+  entities:
+    - light.badezimmer_decke
+    
 hallway_light:
   name: Licht
   entities:
     - light.flur_bad
     - light.flur_eingang
     - light.flur_schlafzimmer
+    
+bedroom_lights:
+  name: Licht
+  entities:
+    - light.schlafzimmer
   
 # hallway_climate:
 #   name: Klima
