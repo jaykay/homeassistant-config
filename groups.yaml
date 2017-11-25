@@ -1,0 +1,49 @@
+livingroom:
+  name: Wohnzimmer
+  view: yes
+  entities:
+    - group.livingroom_lights
+    # - group.livingroom_climate
+    - media_player.wohnzimmer
+    
+bedroom:
+  name: Schlafzimmer
+  view: yes
+  entities:
+    - group.bedroom_lights
+    # - group.bedroom_climate
+    
+hall:
+  name: Flur
+  view: yes
+  entities:
+    - group.hallway_light
+    # - group.hallway_climate
+    
+bathroom:
+  name: Badezimmer
+  view: yes
+  entities:
+    - group.bathroom_lights
+    # - group.bathroom_climate
+    
+hallway_light:
+  name: Licht
+  entities:
+    - light.flur_bad
+    - light.flur_eingang
+    - light.flur_schlafzimmer
+  
+# hallway_climate:
+#   name: Klima
+#   entities:
+    # - sensor.google_wifi_status
+    
+livingroom_lights:
+  name: Licht
+  entities:
+    - light.wohnzimmer_tur
+    - light.wohnzimmer_decke
+    - light.wohnzimmer_regal
+    - light.stehlampe
+    - light.led
