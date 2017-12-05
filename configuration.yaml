@@ -54,6 +54,9 @@ map:
 
 # Track the sun
 sun:
+  
+# iOS Platform
+ios:
 
 # Weather prediction
 sensor:
