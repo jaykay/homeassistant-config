@@ -1,3 +1,3 @@
 # homeassistant-config
 
-test
+test git
