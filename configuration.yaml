@@ -33,8 +33,6 @@ homematic:
     rf:
       host: !secret homematic_ip
       resolvenames: json
-      primary: true
-      variables: true
     wired:
       host: !secret homematic_ip
       resolvenames: json
