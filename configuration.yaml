@@ -30,33 +30,21 @@ config:
 
 homematic:
   interfaces:
-    # rf:
-    #   host: !secret homematic_ip
-    #   resolvenames: xml
-      # username: Admin
-      # password: secret
-      # primary: true
-      # variables: true
+    rf:
+      host: !secret homematic_ip
+      resolvenames: json
+      primary: true
+      variables: true
     wired:
       host: !secret homematic_ip
-      resolvenames: xml
-      # username: Admin
-      # password: secret
-  #   ip:
-  #     host: !secret homematic_ip
-  #     port: 2010
+      resolvenames: json
     groups:
       host: !secret homematic_ip
-      # port: 9292
-      resolvenames: xml
-      # username: Admin
-      # password: secret
+      resolvenames: json
       path: /groups
   hosts:
     ccu2:
       host: !secret homematic_ip
-      # username: Admin
-      # password: secret
 
 http:
   # Secrets are defined in the file secrets.yaml
