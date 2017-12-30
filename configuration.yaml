@@ -36,7 +36,7 @@ homematic:
       # username: Admin
       # password: secret
       # primary: true
-      variables: true
+      # variables: true
     wired:
       host: !secret homematic_ip
       port: 2000
