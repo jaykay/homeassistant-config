@@ -32,15 +32,15 @@ homematic:
   interfaces:
     rf:
       host: !secret homematic_ip
-      resolvenames: json
+      resolvenames: xml
       # username: Admin
       # password: secret
-      primary: true
+      # primary: true
       variables: true
     wired:
       host: !secret homematic_ip
       port: 2000
-      resolvenames: json
+      resolvenames: xml
       # username: Admin
       # password: secret
     ip:
@@ -49,7 +49,7 @@ homematic:
     groups:
       host: !secret homematic_ip
       port: 9292
-      resolvenames: json
+      resolvenames: xml
       # username: Admin
       # password: secret
       path: /groups
