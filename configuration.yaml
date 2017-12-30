@@ -30,9 +30,9 @@ config:
 
 homematic:
   interfaces:
-    rf:
-      host: !secret homematic_ip
-      resolvenames: xml
+    # rf:
+    #   host: !secret homematic_ip
+    #   resolvenames: xml
       # username: Admin
       # password: secret
       # primary: true
