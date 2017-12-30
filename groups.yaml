@@ -12,6 +12,7 @@ bedroom:
   view: yes
   entities:
     - group.bedroom_lights
+    - media_player.schlafzimmer
     # - group.bedroom_climate
     
 hall:
@@ -26,6 +27,7 @@ bathroom:
   view: yes
   entities:
     - group.bathroom_lights
+    - media_player.badezimmer
     # - group.bathroom_climate
     
 bathroom_lights:
