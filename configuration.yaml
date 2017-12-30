@@ -52,9 +52,9 @@ homematic:
       # username: Admin
       # password: secret
       path: /groups
-  # hosts:
-  #   ccu2:
-  #     host: !secret homematic_ip
+  hosts:
+    ccu2:
+      host: !secret homematic_ip
       # username: Admin
       # password: secret
 
