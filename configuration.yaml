@@ -45,13 +45,13 @@ homematic:
   #   ip:
   #     host: !secret homematic_ip
   #     port: 2010
-  #   groups:
-  #     host: !secret homematic_ip
-  #     port: 9292
-  #     resolvenames: xml
-  #     # username: Admin
-  #     # password: secret
-  #     path: /groups
+    groups:
+      host: !secret homematic_ip
+      # port: 9292
+      resolvenames: xml
+      # username: Admin
+      # password: secret
+      path: /groups
   # hosts:
   #   ccu2:
   #     host: !secret homematic_ip
