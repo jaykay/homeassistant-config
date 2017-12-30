@@ -29,33 +29,33 @@ config:
 #       resolvenames: xml
 
 homematic:
-  interfaces:
-    rf:
-      host: !secret homematic_ip
-      resolvenames: xml
+  # interfaces:
+  #   rf:
+  #     host: !secret homematic_ip
+  #     resolvenames: xml
       # username: Admin
       # password: secret
       # primary: true
       # variables: true
-    wired:
-      host: !secret homematic_ip
-      port: 2000
-      resolvenames: xml
+  wired:
+    host: !secret homematic_ip
+    # port: 2000
+    resolvenames: xml
       # username: Admin
       # password: secret
-    ip:
-      host: !secret homematic_ip
-      port: 2010
-    groups:
-      host: !secret homematic_ip
-      port: 9292
-      resolvenames: xml
-      # username: Admin
-      # password: secret
-      path: /groups
-  hosts:
-    ccu2:
-      host: !secret homematic_ip
+  #   ip:
+  #     host: !secret homematic_ip
+  #     port: 2010
+  #   groups:
+  #     host: !secret homematic_ip
+  #     port: 9292
+  #     resolvenames: xml
+  #     # username: Admin
+  #     # password: secret
+  #     path: /groups
+  # hosts:
+  #   ccu2:
+  #     host: !secret homematic_ip
       # username: Admin
       # password: secret
 
