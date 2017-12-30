@@ -30,16 +30,15 @@ config:
 
 homematic:
   interfaces:
-  #   rf:
-  #     host: !secret homematic_ip
-  #     resolvenames: xml
+    rf:
+      host: !secret homematic_ip
+      resolvenames: xml
       # username: Admin
       # password: secret
       # primary: true
       # variables: true
     wired:
       host: !secret homematic_ip
-      # port: 2000
       resolvenames: xml
       # username: Admin
       # password: secret
